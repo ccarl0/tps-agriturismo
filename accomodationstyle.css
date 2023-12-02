@@ -4,6 +4,7 @@ a,p{
 p{
     font-size: 30px;
 }
-#iddiv{
+.classdiv{
     display: flex;
+    margin: 10px;
 }
