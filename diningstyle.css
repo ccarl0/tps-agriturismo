@@ -1,0 +1,73 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+  body
+  {
+    margin: 0;
+  }
+
+  .current{
+    background-color: rgba(220, 220, 220, 0.301);
+  }
+
+  .people
+  {
+    background-color: rgba(182, 111, 18, 0.411);
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden; /* Clearfix hack to contain floats */
+}
+
+.monza {
+    float: left;
+    width: 30%;
+}
+
+.silvio {
+    float: right;
+    width: 30%;
+}
+
+.text {
+    float: right;
+    width: 70%;
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
