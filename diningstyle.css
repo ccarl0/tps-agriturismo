@@ -50,8 +50,13 @@ ul {
     overflow: hidden; /* Clearfix hack to contain floats */
 }
 
-.image {
+.monza {
     float: left;
+    width: 30%;
+}
+
+.silvio {
+    float: right;
     width: 30%;
 }
 
