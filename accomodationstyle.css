@@ -1,6 +1,9 @@
-html{
-    background-color: black;
+a,p{
+    color: red;
 }
-a{
-    color: blue;
+p{
+    font-size: 30px;
+}
+#iddiv{
+    display: flex;
 }
