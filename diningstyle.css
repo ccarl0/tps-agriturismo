@@ -27,3 +27,7 @@ ul {
   {
     margin: 0;
   }
+
+  .current{
+    background-color: rgba(220, 220, 220, 0.301);
+  }
