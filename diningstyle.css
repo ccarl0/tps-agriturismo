@@ -36,3 +36,33 @@ ul {
   {
     background-color: rgba(182, 111, 18, 0.411);
   }
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden; /* Clearfix hack to contain floats */
+}
+
+.image {
+    float: left;
+    width: 30%;
+}
+
+.text {
+    float: right;
+    width: 70%;
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
